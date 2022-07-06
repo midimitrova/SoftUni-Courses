@@ -15,3 +15,12 @@
 	- For Loops
 	- While Loops
 	- Nested Loops
+
+- Algorithms with Python July 2022:
+
+	- Working with recursion and backtracking
+	- Solving combinatorial problems
+	- Searching, sorting and Greedy algorithms
+	- Graph theory representation, traversal and shortest paths
+	- Dynamic programming
+	- Understanding solving techniques and choosing between multiple solutions
