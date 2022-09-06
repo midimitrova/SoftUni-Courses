@@ -5,7 +5,7 @@
 
 ### **Topics covered in each course:**
 
- - Python Programming Basics April 2022: [certificate](https://softuni.bg/certificates/details/133712/ab29ac2f) 
+ - Python Programming Basics - April 2022: [certificate](https://softuni.bg/certificates/details/133712/ab29ac2f) 
 
 	- First Steps in Coding
 	- Conditional Statements
