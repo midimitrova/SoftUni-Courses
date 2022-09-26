@@ -1,8 +1,8 @@
 # SoftUni-Courses
 
-Online judge system - https://judge.softuni.org/(https://judge.softuni.org/)
+Online judge system - https://judge.softuni.org/
 
-Software University website - https://softuni.org/(https://softuni.org/)
+Software University website - https://softuni.bg/
 
 ## **My solutions to the problems in the following SoftUni courses:**
 
