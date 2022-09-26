@@ -1,5 +1,7 @@
 # SoftUni-Courses
 
+Online judge system - https://judge.softuni.org/(https://judge.softuni.org/)
+Software University website - https://softuni.org/(https://softuni.org/)
 
 ## **My solutions to the problems in the following SoftUni courses:**
 
@@ -16,18 +18,19 @@
 
 - Programming Fundamentals with Python - September 2022:
 
-	- Basic Syntax, Conditional Statements and Loops
-	- Git and GitHub
-	- HTTP Basics
-	- Lists Basics
-	- HTML & CSS Basics
-	- Functions
-	- Lists Advanced
-	- Objects and Classes
-	- Dictionaries
-	- Bitwise Operations
-	- Text Processing
-	- Regular Expressions
-	- Database Basics
-	- QA Introduction
-	- Basic Web Project
+    - Basic Syntax, Conditional Statements and Loops
+    - Data Types and Variables
+    - Git and GitHub
+    - HTTP Basics
+    - Lists Basics
+    - HTML & CSS Basics
+    - Functions
+    - Lists Advanced
+    - Objects and Classes
+    - Dictionaries
+    - Bitwise Operations
+    - Text Processing
+    - Regular Expressions
+    - Database Basics
+    - QA Introduction
+    - Basic Web Project
