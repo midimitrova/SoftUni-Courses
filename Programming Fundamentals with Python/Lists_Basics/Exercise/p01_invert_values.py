@@ -7,10 +7,6 @@ for curr_num in nums:
 
 reversed_lst = []
 for number in int_lst:
-    if number > 0:
-        number = -abs(number)
-        reversed_lst.append(number)
-    else:
-        number = abs(number)
-        reversed_lst.append(number)
+    reversed_number = number * -1
+    reversed_lst.append(reversed_number)
 print(reversed_lst)
