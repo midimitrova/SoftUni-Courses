@@ -1,4 +1,4 @@
-elements = [el for el in input().split()]
+elements = input().split()
 
 moves = 0
 command = input()
