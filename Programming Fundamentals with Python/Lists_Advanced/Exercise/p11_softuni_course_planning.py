@@ -16,12 +16,11 @@ while command != 'course start':
             lessons.insert(index, lesson_title)
 
     elif current_command == 'Remove':
+        exercise_title = f'{lesson_title}-Exercise'
         if lesson_title in lessons:
-            index_title = lessons.index(lesson_title)
-            if index_title + 1 in range(len(lessons)):
-                if "Exercise" in lessons[index_title + 1]:
-                    lessons.pop(index_title + 1)
             lessons.remove(lesson_title)
+        if exercise_title in lessons:
+            lessons.remove(exercise_title)
 
     elif current_command == 'Swap':
         lesson_title_one = lesson_title
