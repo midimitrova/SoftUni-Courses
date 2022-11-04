@@ -1,14 +1,15 @@
 class Bakery:
 
-    def __init__(self):
+    def __init__(self, stock_of_products):
         self.bakery = {}
         self.product = ''
         self.quantity = ''
+        self.stock_of_products = stock_of_products
 
     def make_dict(self):
-        for i in range(0, len(elements), 2):
-            self.product = elements[i]
-            self.quantity = elements[i + 1]
+        for product_index in range(0, len(self.stock_of_products), 2):
+            self.product = self.stock_of_products[product_index]
+            self.quantity = self.stock_of_products[product_index + 1]
             self.bakery[self.product] = int(self.quantity)
 
     def display_dict(self):
@@ -16,6 +17,6 @@ class Bakery:
 
 
 elements = input().split()
-bakery = Bakery()
+bakery = Bakery(elements)
 bakery.make_dict()
 bakery.display_dict()

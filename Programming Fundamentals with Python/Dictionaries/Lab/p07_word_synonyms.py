@@ -1,10 +1,11 @@
 class Synonym:
 
-    def __init__(self):
+    def __init__(self, num):
         self.words = {}
+        self.num = num
 
     def get_words(self):
-        for _ in range(number):
+        for _ in range(self.num):
             word = input()
             synonym = input()
             if word not in self.words.keys():
@@ -17,6 +18,6 @@ class Synonym:
 
 
 number = int(input())
-synonym = Synonym()
+synonym = Synonym(number)
 synonym.get_words()
 synonym.display()

@@ -1,12 +1,12 @@
 class Students:
-    def __init__(self):
+    def __init__(self, data):
         self.name = ''
         self.id = ''
         self.course_name = ''
         self.courses = {}
+        self.data = data
 
     def get_information(self):
-        self.data = input()
         while ':' in self.data:
             self.name, self.id, self.course_name = self.data.split(':')
 
@@ -28,7 +28,8 @@ class Students:
                     print(f"{name} - {id}")
 
 
-student = Students()
+command = input()
+student = Students(command)
 student.get_information()
 student.searched_course()
 student.display()

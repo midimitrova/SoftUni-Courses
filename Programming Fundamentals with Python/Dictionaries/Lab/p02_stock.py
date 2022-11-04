@@ -1,18 +1,20 @@
 class Bakery:
 
-    def __init__(self):
+    def __init__(self, stock_of_products, searched_items):
         self.bakery = {}
         self.product = ''
         self.quantity = ''
+        self.stock_of_products = stock_of_products
+        self.searched_items = searched_items
 
     def make_dict(self):
-        for i in range(0, len(elements), 2):
-            self.product = elements[i]
-            self.quantity = elements[i + 1]
+        for product_index in range(0, len(self.stock_of_products), 2):
+            self.product = self.stock_of_products[product_index]
+            self.quantity = self.stock_of_products[product_index + 1]
             self.bakery[self.product] = int(self.quantity)
 
     def searched_products(self):
-        for item in searched_products:
+        for item in self.searched_items:
             if item in self.bakery.keys():
                 print(f"We have {self.bakery[item]} of {item} left")
             else:
@@ -21,6 +23,6 @@ class Bakery:
 
 elements = input().split()
 searched_products = input().split()
-bakery = Bakery()
+bakery = Bakery(elements, searched_products)
 bakery.make_dict()
 bakery.searched_products()
