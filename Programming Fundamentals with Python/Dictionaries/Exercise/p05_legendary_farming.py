@@ -35,10 +35,14 @@ class Farming:
 
             self.items = input().split()
 
+    def __repr__(self):
+        result = ''
         for item, quantity in self.collection_of_items.items():
-            print(f"{item}: {quantity}")
+            result += f"{item}: {quantity}\n"
+        return result
 
 
 data = input().split()
 farming = Farming(data)
 farming.collect_items()
+print(farming)
