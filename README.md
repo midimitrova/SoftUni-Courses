@@ -17,7 +17,7 @@ Software University website - https://softuni.bg/
 	- While Loops
 	- Nested Loops
 
-- Programming Fundamentals with Python - September 2022:
+- Programming Fundamentals with Python - September 2022: [certificate](https://softuni.bg/certificates/details/148711/d0adb2f6)
 
     - Basic Syntax, Conditional Statements and Loops
     - Data Types and Variables
