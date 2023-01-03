@@ -35,3 +35,29 @@ Software University website - https://softuni.bg/
     - Database Basics
     - QA Introduction
     - Basic Web Project
+
+- Python Advanced Module - January 2023
+    ###### Python Advanced
+
+    - Lists as Stacks and Queues
+    - Tuples and Sets
+    - Multidimensional Lists
+    - Functions Advanced
+    - Error Handling
+    - File Handling
+    - Workshop
+    - Modules
+
+    ###### Python OOP
+
+    - First Steps in OOP
+    - Classes and Objects
+    - Inheritance
+    - Encapsulation
+    - Static and Class Methods
+    - Polymorphism and Abstraction
+    - SOLID
+    - Iterators and Generators
+    - Decorators
+    - Testing
+    - Design Patterns
