@@ -18,8 +18,7 @@ class Trainer:
             if pokemon.name == pokemon_name:
                 self.pokemons.remove(pokemon)
                 return f"You have released {pokemon_name}"
-            else:
-                return f"Pokemon is not caught"
+        return f"Pokemon is not caught"
 
     def trainer_data(self):
         result = ''
