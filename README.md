@@ -37,7 +37,7 @@ Software University website - https://softuni.bg/
     - Basic Web Project
 
 - Python Advanced Module - January 2023
-    ###### Python Advanced
+    ###### Python Advanced: [certificate](https://softuni.bg/certificates/details/159315/5e35dc0a) 
 
     - Lists as Stacks and Queues
     - Tuples and Sets
