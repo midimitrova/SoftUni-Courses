@@ -39,7 +39,7 @@ class BaseAquarium(ABC):
 
         self.fish.append(fish)
 
-        return f"Successfully added {fish.type} to {self.name}."
+        return f"Successfully added {fish.fish_type} to {self.name}."
 
     def remove_fish(self, fish):
         self.fish.remove(fish)
