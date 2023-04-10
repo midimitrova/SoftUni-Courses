@@ -48,7 +48,7 @@ Software University website - https://softuni.bg/
     - Workshop
     - Modules
 
-    ###### Python OOP
+    ###### Python OOP: [certificate](https://softuni.bg/certificates/details/168040/e0fec4e4)
 
     - First Steps in OOP
     - Classes and Objects
