@@ -1,10 +1,8 @@
-def my_factorial(n):
-    if n < 1:
+def factorial(num):
+    if num == 0:
         return 1
-    return n * my_factorial(n - 1)
+    return num * factorial(num - 1)
 
 
 n = int(input())
-
-
-print(my_factorial(n))
+print(factorial(n))

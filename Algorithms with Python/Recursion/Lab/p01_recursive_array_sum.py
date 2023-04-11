@@ -1,8 +1,9 @@
-def array_sum(my_num, index):
-    if index >= len(my_num) - 1:
-        return my_num[index]
-    return my_num[index] + array_sum(my_num, index + 1)
+def sum_numbers(numbers, num_idx):
+    if num_idx == len(numbers) - 1:
+        return numbers[num_idx]
 
-my_num = [int(my_num) for my_num in input().split()]
+    return numbers[num_idx] + sum_numbers(numbers, num_idx + 1)
 
-print(array_sum(my_num, 0))
+
+nums = [int(x) for x in input().split()]
+print(sum_numbers(nums, 0))
