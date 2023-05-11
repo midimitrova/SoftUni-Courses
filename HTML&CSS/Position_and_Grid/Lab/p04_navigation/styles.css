@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 0px 70px 50px 50px;
+}
+
+p,
+a {
+    font-size: 12px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, serif;
+    font-size: 1em;
+    line-height: 1.2;
+}
+
+.site-header {
+    height: 90px;
+}
+
+.site-header>p {
+    display: inline-block;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.site-header nav,
+.site-header ul,
+.site-header li {
+    display: inline-block;
+}
+
+.site-header nav {
+    position: absolute;
+    right: 70px;
+    top: 34px;
+}
+
+.site-header li {
+    margin-right: 10px;
+    color: rgb(0, 102, 0);
+    font-size: 12px;
+}
+
+hr {
+    border: 1px solid black;
+}
+
+article {
+    display: inline-block;
+    width: 70%;
+}
+
+.image-wrapper-first {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 220px;
+    position: relative;
+    float: right;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 3px solid black;
+}
+
+#first-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 94%;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 70px;
+    margin-top: -10px;
+}
+
+a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+li {
+    list-style: square;
+}
+
+.image-wrapper-second {
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 150px;
+    height: 110px;
+    position: relative;
+    float: left;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25);
+    border: 3px solid black;
+}
+
+#second-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 88%;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 45%;
+}
+
+blockquote {
+    display: inline-block;
+    width: 40%;
+    border-left: 3px solid rgb(221, 221, 221);
+    margin: 15px 0px 0px 30px;
+    padding-left: 30px;
+    font-family: Georgia, serif;
+    font-style: italic;
+    vertical-align: top;
+}
+
+blockquote>p {
+    margin-top: 0;
+}
+
+#author-name {
+    text-align: right;
+}
