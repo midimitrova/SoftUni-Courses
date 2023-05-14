@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    background-color: rgb(238, 238, 238);
+    padding: 0 290px 50px 290px;
+}
+
+main {
+    display: flex;
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.site-header {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.site-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 38px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+h1,
+h2 {
+    font-family: Georgia, serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+
+article {
+    width: 70%;
+}
+
+.image-wrapper-first {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 290px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+.image-wrapper-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 221px;
+    height: 153px;
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 3px solid black;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+    margin-left: 70px;
+}
+
+a {
+    color: rgb(0, 153, 0);
+}
+
+.par-blockquote {
+    display: flex;
+    flex-direction: row;
+}
+
+.paragraph {
+    width: 52%;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 1.4;
+    width: 48%;
+    border-left: 3px solid rgb(221, 221, 221);
+    margin: 15px 0px 0px 30px;
+    padding-left: 30px;
+}
+
+blockquote>p {
+    margin-top: 0;
+}
+
+#author-name {
+    display: flex;
+    align-self: flex-end;
+}

@@ -1,0 +1,43 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    width: 120px;
+    height: 360px;
+    overflow: hidden;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px -1px rgb(107, 106, 106);
+}
+
+.image-wrapper-wide {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 360px;
+    margin-right: 20px;
+    overflow: hidden;
+    border-radius: 7px;
+    background-color: black;
+    box-shadow: 0px 0px 20px -1px rgb(107, 106, 106);
+}
+
+.big {
+    width: 95%;
+    height: auto;
+    border-radius: 7px;
+}
