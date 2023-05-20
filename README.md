@@ -61,3 +61,26 @@ Software University website - https://softuni.bg/
     - Decorators
     - Testing
     - Design Patterns
+
+- Python Web - May 2023
+    ###### Python Web Basics:
+
+    - Internet and HTTP
+    - PostgreSQL Introduction
+    - Django Introduction
+    - URLs and Views
+    - Django Templates
+    - Models in Django
+    - Django Forms
+    
+    ###### Python Web Framework:
+
+    - Class-Based Views
+    - Authentication and Authorization
+    - User and Password Management
+    - Common Web Tools for Dynamic Websites
+    - Unit and Integration Testing
+    - Deployment, Hosting and Monitoring
+    - Django REST Framework
+    - Exception Handling
+    - Asynhronous Tasks with Django
