@@ -1,0 +1,67 @@
+{% load filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>
+    Original: {{ title }}: {{ value }}
+</h1>
+<h1>
+    Upped: {{ title|upper }}: {{ value }}
+</h1>
+<h1>
+    Capped first: {{ title|capfirst }}: {{ value }}
+</h1>
+<h1>
+    Lowered then capped first: {{ title|lower|capfirst }}: {{ value }}
+</h1>
+<h1>
+    Truncated 10: {{ title|truncatechars:10 }}: {{ value }}
+</h1>
+<div>
+    {{ now|date:'Y/M/d' }}
+</div>
+<div>
+    {{ info.address }}
+</div>
+
+<div>
+    {{ student.get_info }}
+</div>
+
+<div>
+    {{ student_info }}
+</div>
+
+<div>
+    {% if students %}
+        {{ students|join:', ' }}
+    {% else %}
+        There are no students.
+    {% endif %}
+</div>
+
+<ul>
+    {% for name in students %}
+        <li>{{ name }}</li>
+    {% empty %}
+        No students
+    {% endfor %}
+</ul>
+<div>
+    {{ csrf_token }}
+</div>
+
+<div>
+    Original: {{ values }}
+</div>
+
+<div>
+    Odd: {{ values|odd }}
+</div>
+</body>
+</html>
