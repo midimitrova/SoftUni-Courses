@@ -1,4 +1,5 @@
 {% load filters %}
+{% load tags %}
 
 <!DOCTYPE html>
 <html lang="en">
@@ -62,6 +63,13 @@
 
 <div>
     Odd: {{ values|odd }}
+</div>
+
+<div>
+    {% student_info student %}
+</div>
+<div>
+    {% app_nav 'index' %}
 </div>
 </body>
 </html>
