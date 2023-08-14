@@ -73,7 +73,7 @@ Software University website - https://softuni.bg/
     - Models in Django
     - Django Forms
     
-    ###### Python Web Framework:
+    ###### Python Web Framework: [certificate](https://softuni.bg/certificates/details/182390/00e55725) 
 
     - Class-Based Views
     - Authentication and Authorization
